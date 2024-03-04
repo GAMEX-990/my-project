@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+input {
+  @apply w-[400px] border border-gray-200 py-2 px-6 bg-zinc-100/40;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  margin: 10;
+  padding: 10;
+  width: 100vw;
+}
+
+
+.Myname {
+  display: flex;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 15px solid aliceblue;
+}
+.Myname h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 80rem;
+}
+.buttonlogout{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 25px;
+  transition: 0.3s;
+}
+.buttonlogout:hover{
+  font-size: 20px;
+  color: brown;
+}
+
+.Logo {
+  margin-left: 2rem;
+  margin-top: -4.6rem;
+  border-radius: 50px;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation-name: move;
+  animation-duration: 5s;
+  animation-delay: 5ms;
+}
+
+@keyframes move {
+  0% {
+    left: 0px;
+  }
+
+  100% {
+    left: 120px;
+  }
+}
+
+.womanIndex {
+  text-align: center;
+}
+
+.womanIndex a:hover {
+  color: pink;
+  transition: 0.3s;
+}
+
+.manIndex {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.manIndex a:hover {
+  color: rgb(88, 190, 213);
+  transition: 0.3s;
+}
+
+.Imgehome {
+  margin-left: 21rem;
+  width: 800px;
+  height: auto;
+  transition: 0.3s;
+}
+
+.Imgehome:hover {
+  margin-left: 20rem;
+  width: 850px;
+  height: auto;
+}
+.logohome{
+  width: 350px;
+  height: auto;
+}
